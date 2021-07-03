@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  Anudan-Frontedn-Source-Code-Checkout:
+  Anudan Frontend Source Code Checkout:
 
     runs-on: ubuntu-latest
 
