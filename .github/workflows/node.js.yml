@@ -4,10 +4,13 @@
 name: Anudan-Deploy
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch: workflow manual trigger
+  #push:
+  #  branches: [ master ]
+  #pull_request:
+   # branches: [ master ]
+  #schedule:
+   # - cron:'0/5 * * * *'
 
 jobs:
   Anudan-Frontend-Source-Code-Checkout:
