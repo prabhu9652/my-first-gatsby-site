@@ -4,7 +4,7 @@
 name: Anudan-Deploy
 
 on:
-  workflow_dispatch: workflow manual trigger
+  workflow_dispatch: 
   #push:
   #  branches: [ master ]
   #pull_request:
